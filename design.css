@@ -1,0 +1,79 @@
+body {
+   
+    background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    
+    
+  }
+  
+  
+
+   main.picture {
+    margin: 30px;
+    border: 3px solid rgb(134, 133, 133);
+    width: 300px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 140px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(16, 15, 15, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+    
+  }
+  
+  main.picture:hover {
+    border: 3px solid rgb(53, 53, 53);
+  }
+
+  
+  main.picture img {
+    width: 300px ;
+    height: auto; 
+    border-radius: 10px; 
+
+  }
+
+  .guide{
+      height: 100px;
+  }
+  
+  figcaption.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 252, 252);
+  }
+
+  .footer {
+    padding: 3px;
+     text-align: center;
+     font-size: 20px;
+     background: rgba(45, 44, 44, 0.714);
+     margin-top: 520px;
+     color: white;
+     
+   }
+     
+   
+   .bars {
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  
+  #check {
+    display: none;
+  }
+  
+  @media (max-width: 800px) {
+    .bars {
+      display: block;
+    }
+  }
+

@@ -3,13 +3,13 @@ body {
     background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
      background-size: cover;
     backdrop-filter: blur(10px);
-    height: 155vh;
+    height: 182vh;
  
    }
  
   
    nav {
-     background: rgba(44, 43, 43, 0.301);
+     background: rgba(35, 34, 34, 0.301);
      backdrop-filter: blur(7px);
      height: 80px;
      width: 100%;
@@ -64,10 +64,11 @@ body {
      font-family: Lucida handwriting;
      font-weight: bold;
      line-height: 130px;
-     margin-left: 450px;
+     margin-left: 100px;
      position: center;  
      padding: 10px 10px;
      text-align: center;
+     margin-top: -10px ;
    }
  
    
@@ -76,7 +77,7 @@ body {
      text-align: left;
        margin-left: 100px;
        margin-right: 100px;
-       margin-top: 80px;
+       margin-top: 10px;
        color: rgb(255, 255, 255);
        font-size: 20px;
        background-color: rgb(31, 31, 31);
@@ -90,10 +91,10 @@ body {
  
    .prev, .next {
      cursor: pointer;
-     position: absolute;
+     position: sticky;
      top: 50%;
      width: auto;
-     margin-top: 80px;
+     margin-top: 10px;
      padding: 16px;
      color: rgb(179, 173, 173);
      font-weight: bold;
@@ -108,11 +109,13 @@ body {
     .next {
      right: 0px;
      border-radius: 3px 0 0 3px;
+     margin-left: 1470px;
     }
    
     .prev {
      left: 0;
      border-radius: 3px 0 0 3px;
+
    
     }
    
@@ -126,7 +129,7 @@ body {
      padding: 3px;
       text-align: center;
       font-size: 20px;
-      background: rgba(69, 66, 66, 0.318);
+      background: rgba(40, 39, 39, 0.318);
       margin-top: 90px;
       color: white;
      }

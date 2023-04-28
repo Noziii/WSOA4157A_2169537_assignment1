@@ -3,7 +3,7 @@ body {
    background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
     background-size: cover;
    backdrop-filter: blur(10px);
-   height: 162vh;
+   height: 247vh;
 
   }
 
@@ -71,23 +71,27 @@ body {
   }
 
   .exhaust{
-   width: 40%
-   
+   width: 40%;
+   margin-top: -250px;
   }
+
 .sub{
-  text-align: right;
+  float: right;
+  margin-left: 600px;
+   margin-top: 50px ;
+   margin-right: 100px;
 }
   .one {
     text-align: left;
       margin-left: 100px;
       margin-right: 100px;
-      margin-top: 80px;
+      margin-top: 10px;
       color: rgb(255, 255, 255);
       font-size: 20px;
       background-color: rgb(31, 31, 31);
       line-height: 80px;
       border-radius: 0px;
-      padding: 20px 40px;
+      padding: 40px 40px;
 	   font-weight: 400;
 	   line-height: 1.5;
 	  font-family: 'Raleway', sans-serif;
@@ -95,7 +99,7 @@ body {
 
   .prev, .next {
     cursor: pointer;
-    position: absolute;
+    position: sticky;
     top: 50%;
     width: auto;
     margin-top: 80px;
@@ -113,7 +117,9 @@ body {
    .next {
     right: 0px;
     border-radius: 3px 0 0 3px;
+    margin-left: 1470px;
    }
+  
   
    .prev {
     left: 0;
