@@ -141,9 +141,7 @@ body {
     }
 
 
- .blogpost{
-  display: inline-flex;
- }
+ 
  .card {
 	background: #ecf0f1;
     size: 50%;
